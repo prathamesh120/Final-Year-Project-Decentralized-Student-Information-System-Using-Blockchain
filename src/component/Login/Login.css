@@ -1,0 +1,41 @@
+.LoginForm{
+  
+    
+    padding-bottom: 19%;
+    display:flex;
+    padding-left: 28%;
+    padding-top: 10%;
+    overflow-y: hidden;
+    background-color: rgb(255, 208, 248);
+    
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+
+
+  input {
+    margin-top: 20px;
+    float: left;
+    margin-right: 300px;
+  }
+
+  
+  label {
+    margin-top: 10px;
+    color: #110c0c;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 10px;
+    display: flex;
+  
+  }
+  label:after { content: ": " }
+
+#bt{
+  background-color: rgb(94, 155, 252);
+  margin-top: 0%;
+  margin-bottom: 20px;
+}

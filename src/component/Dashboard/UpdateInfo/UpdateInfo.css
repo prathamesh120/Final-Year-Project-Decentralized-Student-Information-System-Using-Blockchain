@@ -1,0 +1,73 @@
+#Forms{
+    background-color: rgb(255, 208, 248);
+    background-position: center;
+    width: auto;
+    overflow-x: hidden;
+}
+
+.heading{
+    text-align: center;
+}
+
+h2{
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+sup{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formbox{
+    text-align: center;
+    
+    width: 435px;
+    margin-left: 30%;
+    margin-right: 40%;
+    display: inline-block;
+    /* border: 5px solid red; */
+    justify-content: center;
+    padding-left:27px ;
+}
+
+
+
+input{
+     color: black;
+    padding: 3px;
+    
+    border-radius: 5px;
+    padding-top: 3spx;
+    padding-bottom: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 500px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+label{
+    text-align: left;
+    width: 62%;
+    float:left
+    
+}
+label:after { content: ": " }
+
+button{
+    width: 158px;
+    float: left;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color:#2bf724;
+    
+    font: inherit;
+    font-weight: bolder;
+}
